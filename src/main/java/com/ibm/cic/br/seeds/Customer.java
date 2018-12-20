@@ -18,7 +18,6 @@ public class Customer {
         }catch(InvocationTargetException | IllegalAccessException e){
             System.err.println("Unable to copy properties.");
         }
-
         this.conversionDate = new Date();
     }
 

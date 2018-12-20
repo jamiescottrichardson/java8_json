@@ -167,7 +167,7 @@ public class App {
     }
 
     /**
-     * To Do: Using filter and map, convert prospects to customer and return Map<String, Long> where String is subnet and Long is count
+     * To Do: Using map, convert prospects to customer and return Map<String, Long> where String is subnet and Long is count
      */
 
     public Map<String, Long> example9(List<Prospect> prospects) {
@@ -175,10 +175,10 @@ public class App {
     }
 
     /**
-     * To Do: Convert list of prospects to a list customers adding 30 days to the prospects' add date and settin the new date as the customers' conversion data
+     * To Do: Convert list of prospects to a list customers adding 30 days to the prospects' add date and setting the new date as the customers' conversion data, return the list of customerss
      */
 
-    public Map<String, Long> example10(List<Prospect> prospects) {
+    public List<Customer> example10(List<Prospect> prospects) {
         throw new NotImplementedException();
     }
 }
